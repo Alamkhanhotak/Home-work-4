@@ -1,0 +1,46 @@
+
+package javaapplication64;
+        
+import java.util.Scanner;
+
+public class JavaApplication64 {
+
+    
+    public static void main(String[] args) {
+        
+        Scanner input = new
+            Scanner(System.in);
+        double Weight , height;
+        
+        
+        System.out.println("enter the value of youer Weight in kg");
+        
+        Weight = input.nextDouble();
+        
+        
+        System.out.println("enter the value of youer height in meters:");
+        
+        height = input.nextDouble();
+       
+        
+        double BMI= (weight)
+                
+                (height*height);
+        
+       if (BMI<=25.0){
+           System.out.println("your under weight ");
+           
+       } 
+                
+         else  if (BMI<=25.0){
+           System.out.println("your normal weight ");      
+         }
+           else  if (BMI<=25.0){
+           System.out.println("your overweight ");}
+       
+           else{System.out.println("your obese");
+               
+           }
+    }
+    
+}
